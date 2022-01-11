@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content=" width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="Image/controle2.png">
+	<link rel="stylesheet" type="text/css" href="ArquivoExterno/ArqExtCadastro.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/36a62e9efd.js" crossorigin="anonymous"></script>
+	<title>Cadastro</title>
+</head>
+
+<body>
+	<br>
+		<div class="container">
+			<div class="jumbotron">
+				<form accept charset="utf-8">
+
+					<div id="subtitlecadastro">
+							<p align="center">New Level</p>
+						</div>
+
+						<p class="text" align="center">Preencha os dados a seguir para que possamos enviar à você as últimas notícias do mundo dos games </p>
+
+						<br>
+						<br>
+						<br>
+
+						<div class="form-row">
+
+							<div class="form-group col-md-6">
+								<label for="nome"><i class="far fa-user"></i> Nome:</label>
+								<input class="form-control" type="text" id="nome" name="nome" minlength="7" maxlength=150 placeholder="Digite seu nome" required>
+							</div>
+
+							<br>
+							<br>
+
+							<div class="form-group col-md-6">
+								<label for="nome"><i class="fas fa-user"></i> Sobrenome:</label>
+								<input class="form-control" type="text" id="sobrenome" name="sobrenome" minlength="7" maxlength=150 placeholder="Digite seu sobrenome" required>
+							</div>
+						</div>
+			
+							<br>
+							<br>
+
+						<div class="form-row">
+							<div class="form-group col-md-5">
+							<label for="email"><i class="far fa-envelope"></i> E-mail:</label>
+							<input class="form-control" type="email" id="email" name="email" size="34px" minlength=11 maxlength=50 placeholder="example@email.com" required>
+							</div>
+
+							<div class="form-group col-md-5">
+							<label for="email"><i class="fas fa-envelope"></i> E-mail secundário (opcional):</label>
+							<input class="form-control" type="email" id="email" name="email" size="34px" minlength=11 maxlength=50 placeholder="example2@email.com">
+							</div>
+
+							
+							<div class="form-group col-md-2">
+							<label for="telefone"><i class="fas fa-phone"></i> Telefone:</label>
+							<input class="form-control" type="number" id="telefone" name="telefone" size="35px" min="999999999" max="9999999999999" placeholder="(xx) xxxxx-xxxx" required>
+						</div>
+						</div>
+				
+						<br>
+						<br>
+						<br>
+
+						<p align="center">
+        				<a class="btn btn-primary btn-lg" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="amarelo">Questionário</a>
+      					</p>
+
+						<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+
+      					<label>Qual(is) a(s) plataforma(s) em que você joga?</label>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="PC">
+								<label class="form-check-label" for="PC">PC</label><br>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Xbox">
+								<label class="form-check-label" for="Xbox">Xbox</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Playstation">
+								<label class="form-check-label" for="Playstation">Playstation</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Nintendo">
+								<label class="form-check-label" for="Nintendo">Nintendo</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Outro">
+								<label class="form-check-label" for="Outro">Outro</label>
+							</div>
+
+							<br>
+
+							<div class="form-row">
+							<div class="form-group col-md-5">
+								<label for="favoritegame">Qual é o seu jogo/franquia favorito?</label>
+								<input class="form-control" type="text" id="favoritegame" name="favoritegame" required>
+							</div>
+						</div>
+
+						<div class="form-group">
+    					<label for="exampleFormControlTextarea1">Por que? (opcional)</label>
+    						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  						</div>
+
+  						<br>
+
+							<div class="form-row">
+						    <div class="form-group col-md-5">
+							<label for="kindgametype">Qual é o seu gênero de jogo favorito?</label><br>
+							<select class="form-control" required>
+								<option id="kindgametype" value="FPS">FPS</option>
+								<option id="kindgametype" value="TPS">TPS</option>
+								<option id="kindgametype" value="Stealth">Stealth</option>
+								<option id="kindgametype" value="RPG">RPG</option>
+								<option id="kindgametype" value="Ação">Ação</option>
+								<option id="kindgametype" value="Corrida e Vôo">Corrida e Vôo </option>
+								<option id="kindgametype" value="Simulação">Simulação</option>
+								<option id="kindgametype" value="Battle Royale">Battle Royale</option>
+								<option id="kindgametype" value="Luta">Luta</option>
+								<option id="kindgametype" value="Terror">Terror</option>
+								<option id="kindgametype" value="Aventura">Aventura</option>
+							</select>
+							</div>
+							</div>
+
+						<div class="form-group">
+    						<label for="exampleFormControlTextarea1">Por que? (opcional)</label>
+    						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  						</div>
+
+							<br>
+							<label>Você recomendaria o New Level para outras pessoas?</label>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="recomendação" id="Sim" value="s">
+								<label class="form-check-label" for="Sim" name="oi">Sim</label><br>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="recomendação" id="Não" value="n">
+								<label class="form-check-label" for="Não" >Não</label>
+							</div>
+					</div>
+				</div>
+			</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+
+   			<div id="cadastrar">
+				<input type="reset" value="Limpar" class="btn btn-primary btn-lg">
+				<input type="submit" value="Enviar" class="btn btn-primary btn-lg">
+			</div>
+			</form>
+
+		<br>
+		<br>
+
+		<p align="center"><a class="btn btn-warning btn-lg" href="../index.html"><i class="fas fa-home"></i>
+			Home
+		</a></p>
+
+		<br>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+	</body>
+</html>
